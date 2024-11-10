@@ -1,4 +1,17 @@
-**Requirements:-**
+
+**Project Setup**
+1. Clone the Repository
+2. 
+First, clone the project repository from GitHub (replace the URL with the actual repository URL):
+https://github.com/shivaa4445/librarymanagement.git
+
+3. Set Up the MySQL Database
+  1.Install MySQL if it is not already installed.
+
+  2.Create the database:
+CREATE DATABASE library_db;
+
+ **Requirements:-**
 Software
 
 Java JDK 11 or higher: To compile and run the Java code.
@@ -22,18 +35,6 @@ MySQL: For database management.
 Servlets (optional): If implementing dynamic web pages or back-end logic in Java.
 
 
-**Project Setup**
-1. Clone the Repository
-2. 
-First, clone the project repository from GitHub (replace the URL with the actual repository URL):
-https://github.com/shivaa4445/librarymanagement.git
-
-3. Set Up the MySQL Database
-  1.Install MySQL if it is not already installed.
-
-  2.Create the database:
-CREATE DATABASE library_db;
-
 
 
 **How to Run the Project**
@@ -55,16 +56,16 @@ java Main
 
 Deploy the Web Interface (Optional):
 
-  .You can deploy the HTML, CSS, and JavaScript files to a web server like Apache Tomcat (or use a simple local server for testing).
-  .  .Place your HTML files in the appropriate folder (e.g., webapps/ROOT in Tomcat).
+    .You can deploy the HTML, CSS, and JavaScript files to a web server like Apache Tomcat (or use a simple local server for testing).
+    .Place your HTML files in the appropriate folder (e.g., webapps/ROOT in Tomcat).
 Open the Web Interface:
 
-Launch the web application by opening a web browser and navigating to http://localhost:8080/ or your configured web server URL.
+  Launch the web application by opening a web browser and navigating to http://localhost:8080/ or your configured web server URL.
 3. Accessing the Application
-  .Frontend: If you have set up a front-end interface using HTML, CSS, and JavaScript, the system's main pages (like the homepage, login page, and book management page) can be accessed via the web browser.
+    .Frontend: If you have set up a front-end interface using HTML, CSS, and JavaScript, the system's main pages (like the homepage, login page, and book management page) can be accessed via the web browser.
 
-  .Backend: The backend logic handles requests from the frontend, interacts with the database, and performs operations like adding books, checking out books, and managing user data.
+    .Backend: The backend logic handles requests from the frontend, interacts with the database, and performs operations like adding books, checking out books, and managing user data.
 
-
-this is the process hor to run the code of our ** Library Lanagement System using java and database**
+ 
+This is the process how to run the code of our ** Library Lanagement System using java and database**
   
