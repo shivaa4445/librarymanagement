@@ -1,23 +1,34 @@
 **Requirements:-**
 Software
+
 Java JDK 11 or higher: To compile and run the Java code.
+
 MySQL Database (or any other relational database): For storing books, users, and transactions.
+
 Apache Tomcat (optional): If you are using Servlets to handle the web interface.
+
 IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans): For writing, compiling, and running Java code.
+
 SQL Client (e.g., MySQL Workbench): To interact with the database.
+
 Libraries & Technologies
+
 Java JDBC: For connecting and interacting with the MySQL database.
+
 HTML/CSS/JavaScript: For building the front-end user interface.
+
 MySQL: For database management.
+
 Servlets (optional): If implementing dynamic web pages or back-end logic in Java.
 
 
 **Project Setup**
 1. Clone the Repository
+2. 
 First, clone the project repository from GitHub (replace the URL with the actual repository URL):
 https://github.com/shivaa4445/librarymanagement.git
 
-2. Set Up the MySQL Database
+3. Set Up the MySQL Database
   1.Install MySQL if it is not already installed.
 
   2.Create the database:
