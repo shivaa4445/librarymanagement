@@ -1,6 +1,5 @@
-// js/validation.js
 document.addEventListener("DOMContentLoaded", () => {
-    const form = document.querySelector("form");
+    const form = document.getElementById("login-form");
     const emailInput = document.getElementById("email");
     const passwordInput = document.getElementById("password");
     const emailError = document.getElementById("email-error");
@@ -9,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     form.addEventListener("submit", (e) => {
         let isValid = true;
 
+        // Validate email
         if (!validateEmail(emailInput.value)) {
             emailError.classList.remove("d-none");
             isValid = false;
@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
             emailError.classList.add("d-none");
         }
 
+        // Validate password
         if (passwordInput.value.length < 8) {
             passwordError.classList.remove("d-none");
             isValid = false;
