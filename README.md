@@ -80,3 +80,25 @@ This is the frontend for the Library Management System project, designed to mana
 - Responsive design with Bootstrap
 
 ## Project Structure
+library-management/
+│
+├── templates/                 # HTML templates
+│   ├── login.html
+│   ├── register.html
+│   ├── profile.html
+│   ├── dashboard.html
+│   ├── manage-users.html
+│
+├── css/                       # CSS files
+│   ├── style.css
+│   ├── bootstrap.min.css      # Downloaded Bootstrap
+│
+├── js/                        # JavaScript files
+│   ├── validation.js
+│   ├── interactivity.js
+│
+├── assets/                    # Static assets (e.g., images, icons)
+│   ├── logo.png
+│
+├── README.md                  # Documentation
+└── index.html                 # Main entry point (optional landing page)
