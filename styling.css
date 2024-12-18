@@ -1,22 +1,21 @@
 /* css/style.css */
 body {
-    font-family: 'Arial', sans-serif;
     background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
 }
 
 form {
     width: 100%;
     max-width: 400px;
-}
-
-input {
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 button {
     border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .text-danger {
-    font-size: 0.875rem;
+    font-size: 0.85rem;
+    margin-top: 5px;
 }
