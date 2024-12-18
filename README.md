@@ -69,3 +69,14 @@ Open the Web Interface:
  
 This is the process how to run the code of our ** Library Lanagement System using java and database**
   
+# Library Management System - Frontend
+
+This is the frontend for the Library Management System project, designed to manage user activities such as login, registration, and profile updates.
+
+## Features
+- User login and registration
+- Profile management
+- Form validation using JavaScript
+- Responsive design with Bootstrap
+
+## Project Structure
