@@ -102,3 +102,26 @@ library-management/
 │
 ├── README.md                  # Documentation
 └── index.html                 # Main entry point (optional landing page)
+**Technology Stack**
+
+  .Programming Language: Java
+  .GUI Framework: Java Swing
+   .Database: SQLite 
+   
+   
+   
+  **Software Requirements**
+
+
+Java Development Kit (JDK) 8 or higher.
+
+SQLite JDBC Driver.
+
+Any IDE (e.g., IntelliJ IDEA, Eclipse) or text editor.
+
+**Hardware Requirements**
+
+Minimum 2GB RAM.
+
+Any operating system supporting Java (Windows, macOS, Linux).
+
